@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'myOwn';
+    src: url("../img/OpenSans-ExtraBold.ttf") format('truetype');
+}
+
+.root {
+    padding: 15px;
+    color: hotpink;
+    font-family: myOwn;
+}
