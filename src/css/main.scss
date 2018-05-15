@@ -1,5 +1,5 @@
 $font-stack: Helvetica, sans-serif;
-$primary-color: #ff5252;
+$primary-color: #273137;
 
 
 .ColoredClock {
@@ -31,4 +31,11 @@ $primary-color: #ff5252;
     border-top: 6px solid;
     margin: 0.1em 0;
     padding: 0;
+}
+
+.ClockText {
+  position: relative;
+  margin: auto;
+  width: 60%;
+  color: $primary-color;
 }

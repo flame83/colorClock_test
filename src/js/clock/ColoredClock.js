@@ -8,8 +8,9 @@ class ColoredClock extends React.Component {
         this.incS = +1;
         this.incL = +1;
 
-
     }
+
+
 
     // lifecycle hooks ? https://reactjs.org/docs/state-and-lifecycle.html
     componentDidMount() {
@@ -84,8 +85,8 @@ class ColoredClock extends React.Component {
     render() {
         let bckg = 'hsl('+this.state.colorH + ','+this.state.colorS+'%,50%)' ;
         return(
-            <div className="ColoredClock" style={{background: bckg}}>
-                <ClockDisplay time={this.state.myTime} colorH={this.state.colorH} colorS={this.state.colorS} colorL={this.state.colorL}/>
+            <div className="ColoredClock" style={{background: bckg}} >
+                <ClockDisplay time={this.state.myTime} colorH={this.state.colorH} colorS={this.state.colorS} colorL={this.state.colorL} />
             </div>
         );
     }
